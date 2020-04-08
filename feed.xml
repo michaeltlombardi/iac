@@ -1,4 +1,259 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://puppetlabs.github.io/iac/feed.xml" rel="self" type="application/atom+xml" /><link href="https://puppetlabs.github.io/iac/" rel="alternate" type="text/html" /><updated>2020-04-08T02:07:42+00:00</updated><id>https://puppetlabs.github.io/iac/feed.xml</id><title type="html">Puppet IAC Team</title><subtitle>Team blog and list of maintained tools by and for the Puppet Infrastructure Automation Content Team.</subtitle><entry><title type="html">27th March 2020: IAC Team Status Update</title><link href="https://puppetlabs.github.io/iac/team/status/2020/03/27/status-update.html" rel="alternate" type="text/html" title="27th March 2020: IAC Team Status Update" /><published>2020-03-27T00:00:00+00:00</published><updated>2020-03-27T00:00:00+00:00</updated><id>https://puppetlabs.github.io/iac/team/status/2020/03/27/status-update</id><content type="html" xml:base="https://puppetlabs.github.io/iac/team/status/2020/03/27/status-update.html">&lt;p&gt;The IAC team has been working on a lot of interesting things over the past week.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://puppetlabs.github.io/iac/feed.xml" rel="self" type="application/atom+xml" /><link href="https://puppetlabs.github.io/iac/" rel="alternate" type="text/html" /><updated>2020-04-08T17:06:31+00:00</updated><id>https://puppetlabs.github.io/iac/feed.xml</id><title type="html">Puppet IAC Team</title><subtitle>Team blog and list of maintained tools by and for the Puppet Infrastructure Automation Content Team.</subtitle><entry><title type="html">3rd April 2020: IAC Team Status Update</title><link href="https://puppetlabs.github.io/iac/team/status/2020/04/03/status-update.html" rel="alternate" type="text/html" title="3rd April 2020: IAC Team Status Update" /><published>2020-04-03T00:00:00+00:00</published><updated>2020-04-03T00:00:00+00:00</updated><id>https://puppetlabs.github.io/iac/team/status/2020/04/03/status-update</id><content type="html" xml:base="https://puppetlabs.github.io/iac/team/status/2020/04/03/status-update.html">&lt;p&gt;The IAC team has been working on a lot of interesting things over the past week.
+Here’s a brief overview of what we’ve been up to:&lt;/p&gt;
+
+&lt;h2 id=&quot;covid-19&quot;&gt;COVID-19&lt;/h2&gt;
+&lt;p&gt;We’ve now completed our 3rd week as a fully remote working team.
+It seems like we’ve all adopted fairly well as it’s feeling like the “new normal”, insofar as normal can be during these unprecedented times.
+One new addition to our team’s process is our Friday social chats.
+We all down tools and chill out, chat, have a drink and play some games!
+Often, the team members’ pets will make a welcome appearance. :)
+We hope you, your friends, family and colleagues are continuing to weather the storm and that everyone is healthy and safe.
+Puppet have been striving to &lt;a href=&quot;https://puppet.com/blog/covid-19-a-note-for-our-community/&quot;&gt;help our customers, community members, users and partners&lt;/a&gt; during this difficult time.
+The IAC team continue to remain engaged with the always awesome Community to keep the conveyer belt of improvements moving!
+Stay safe and well!&lt;/p&gt;
+
+&lt;h2 id=&quot;new-module-releases-iac-team&quot;&gt;New Module Releases (IAC Team)&lt;/h2&gt;
+&lt;p&gt;Let’s kick things off by highlighting some new module releases:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://forge.puppet.com/puppetlabs/firewall&quot;&gt;puppetlabs/firewall&lt;/a&gt; (v2.3.0)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://forge.puppet.com/puppetlabs/iis&quot;&gt;puppetlabs/iis&lt;/a&gt; (v7.0.1)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://forge.puppet.com/puppetlabs/ntp&quot;&gt;puppetlabs/ntp&lt;/a&gt; (v8.3.0)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;puppetlabsiis-v701&quot;&gt;puppetlabs/iis v7.0.1&lt;/h4&gt;
+&lt;p&gt;Thanks to &lt;a href=&quot;https://github.com/pillarsdotnet&quot;&gt;pillarsdotnet&lt;/a&gt; for &lt;a href=&quot;https://github.com/puppetlabs/puppetlabs-iis/pull/254&quot;&gt;his PR&lt;/a&gt; that fixed &lt;a href=&quot;https://tickets.puppetlabs.com/browse/MODULES-10419&quot;&gt;MODULES-10419&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;We’d also like to thank &lt;a href=&quot;https://github.com/johnrogers00&quot;&gt;johnrogers00&lt;/a&gt; for &lt;a href=&quot;https://github.com/puppetlabs/puppetlabs-iis/pull/272&quot;&gt;his fix&lt;/a&gt; and additional test coverage!&lt;/p&gt;
+
+&lt;h2 id=&quot;new-module-releases-community&quot;&gt;New Module Releases (Community)&lt;/h2&gt;
+&lt;p&gt;It’s great to see members outside of the IAC Team releasing new modules:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://forge.puppet.com/puppetlabs/zfs_core&quot;&gt;puppetlabs/zfs_core&lt;/a&gt; (v1.0.5)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&quot;https://github.com/GabrielNagy&quot;&gt;GabrielNagy&lt;/a&gt; and &lt;a href=&quot;https://github.com/ciprianbadescu&quot;&gt;ciprianbadescu&lt;/a&gt; for their efforts to get this new version of &lt;a href=&quot;https://forge.puppet.com/puppetlabs/zfs_core&quot;&gt;zfs_core&lt;/a&gt; released.&lt;/p&gt;
+
+&lt;h2 id=&quot;litmus-gem-v0181-release&quot;&gt;Litmus gem v0.18.1 release&lt;/h2&gt;
+&lt;p&gt;We have released v0.18.1 of the &lt;a href=&quot;https://github.com/puppetlabs/puppet_litmus&quot;&gt;puppet_litmus gem&lt;/a&gt;.
+There were quite a number of fixes that went in to &lt;a href=&quot;https://github.com/puppetlabs/puppet_litmus/blob/master/CHANGELOG.md#v0180-2020-03-31&quot;&gt;v0.18.0&lt;/a&gt; and &lt;a href=&quot;https://github.com/puppetlabs/puppet_litmus/blob/master/CHANGELOG.md#0181-2020-04-02&quot;&gt;v0.18.1&lt;/a&gt;, but a few highlights worth mentioning:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/tphoney&quot;&gt;tphoney&lt;/a&gt; added support for &lt;a href=&quot;https://github.com/puppetlabs/bolt&quot;&gt;Bolt&lt;/a&gt; v2!&lt;/li&gt;
+  &lt;li&gt;We have been working with &lt;a href=&quot;https://github.com/jmangt&quot;&gt;jmangt&lt;/a&gt; to allow Litmus to &lt;a href=&quot;https://github.com/puppetlabs/puppet_litmus/pull/260&quot;&gt;install modules from a private Forge repo&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A &lt;a href=&quot;https://github.com/puppetlabs/puppet_litmus/blob/master/CHANGELOG.md#fixed-1&quot;&gt;number of fixes&lt;/a&gt; from &lt;a href=&quot;https://github.com/DavidS&quot;&gt;DavidS&lt;/a&gt;, a fix from &lt;a href=&quot;https://github.com/findmyname666&quot;&gt;findmyname666&lt;/a&gt; and improvements to the docs from &lt;a href=&quot;https://github.com/clairecadman&quot;&gt;clairecadman&lt;/a&gt;!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;supported-module-litmus-conversion&quot;&gt;Supported Module Litmus Conversion&lt;/h2&gt;
+&lt;p&gt;On the topic of &lt;a href=&quot;https://github.com/puppetlabs/puppet_litmus&quot;&gt;Litmus&lt;/a&gt;, we’re continuing to make progress on the conversion of all supported modules to the framework:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://forge.puppet.com/puppetlabs/reboot&quot;&gt;puppetlabs/reboot&lt;/a&gt; is now running in the framework on most of the supported 33 compatible platforms; only a few more to go!&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://forge.puppet.com/puppetlabs/satellite_pe_tools&quot;&gt;puppetlabs/satellite_pe_tools&lt;/a&gt; is progressing nicely!&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://forge.puppet.com/puppetlabs/websphere_application_server&quot;&gt;puppetlabs/websphere_application_server&lt;/a&gt; is nearly complete and entering the review stage! We’ll hope to get this over the line very soon.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After that, we’ll be moving on to &lt;a href=&quot;https://forge.puppet.com/puppetlabs/ibm_installation_manager&quot;&gt;puppetlabs/ibm_installation_manager&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;puppet--dsc&quot;&gt;Puppet + DSC&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/michaeltlombardi&quot;&gt;michaeltlombardi&lt;/a&gt; has continued to make excellent progress on our &lt;a href=&quot;https://tickets.puppetlabs.com/browse/IAC-41&quot;&gt;refactor of DSC support&lt;/a&gt; in Puppet.
+To find out what we’re doing, the reasoning behind it and why we’re &lt;strong&gt;SUPER EXCITED&lt;/strong&gt; about this, check out &lt;a href=&quot;https://github.com/michaeltlombardi&quot;&gt;Michael’s&lt;/a&gt; &lt;a href=&quot;/iac/news/roadmap/2020/03/30/dsc-announcement.html&quot;&gt;earlier blog post&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;debugging-with-honeycomb&quot;&gt;Debugging with Honeycomb&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://honeycomb.io/&quot;&gt;Honeycomb&lt;/a&gt; continues to provide us interesting insights that guide us to problems lurking in our test infrastructure.
+&lt;a href=&quot;https://github.com/DavidS&quot;&gt;dev_el_ops&lt;/a&gt; used the reported data/metrics to investigate an issue pointed out by &lt;a href=&quot;https://github.com/carabasdaniel&quot;&gt;carabasdaniel&lt;/a&gt;.
+Check out &lt;a href=&quot;https://github.com/DavidS&quot;&gt;dev_el_ops’s&lt;/a&gt; &lt;a href=&quot;/iac/module/development/2020/03/30/debugging-unit-tests-with-honeycomb.html&quot;&gt;earlier blog post&lt;/a&gt; about it.&lt;/p&gt;</content><author><name>sanfrancrisko</name></author><category term="module updates" /><category term="community" /><category term="litmus" /><category term="testing" /><category term="dsc" /><category term="powershell" /><category term="windows" /><summary type="html">The IAC team has been working on a lot of interesting things over the past week. Here’s a brief overview of what we’ve been up to:</summary></entry><entry><title type="html">Debugging unit-tests with Honeycomb</title><link href="https://puppetlabs.github.io/iac/module/development/2020/03/30/debugging-unit-tests-with-honeycomb.html" rel="alternate" type="text/html" title="Debugging unit-tests with Honeycomb" /><published>2020-03-30T00:00:00+00:00</published><updated>2020-03-30T00:00:00+00:00</updated><id>https://puppetlabs.github.io/iac/module/development/2020/03/30/debugging-unit-tests-with-honeycomb</id><content type="html" xml:base="https://puppetlabs.github.io/iac/module/development/2020/03/30/debugging-unit-tests-with-honeycomb.html">&lt;p&gt;Since &lt;a href=&quot;/iac/team/status/2020/03/27/status-update.html#litmus-progress&quot;&gt;last week&lt;/a&gt; we’re collecting unit-test results and acceptance test runs in &lt;a href=&quot;https://honeycomb.io/&quot;&gt;honeycomb&lt;/a&gt;, a tool for introspecting and interrogating production systems. In our team’s case, CI is the “production” environment we manage. Today Daniel pointed out that there was a curious issue with one of our test suites:&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;no&quot;&gt;NoMethodError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;undefined&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;method&lt;/span&gt; &lt;span class=&quot;sb&quot;&gt;`message_lines' for #&amp;lt;RSpec::Core::Notifications::SkippedExampleNotification:0x00007f8407ac3018&amp;gt;
+# /Users/danielcarabas/.rvm/gems/ruby-2.6.3/gems/rspec_honeycomb_formatter-0.2.0/lib/rspec_honeycomb_formatter.rb:95:in `&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;example_pending&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;That clearly rings a bell, but a trivial try at reproducing this using &lt;code class=&quot;highlighter-rouge&quot;&gt;pending&lt;/code&gt; brought up a weird issue:&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;no&quot;&gt;From&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/home/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;david&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;git&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rspec_honeycomb_formatter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rspec_honeycomb_formatter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;rb&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;@&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;99&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;RSpecHoneycombFormatter&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#example_pending:&lt;/span&gt;
+
+     &lt;span class=&quot;mi&quot;&gt;95&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;example_pending&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;notification&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+     &lt;span class=&quot;mi&quot;&gt;96&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;   &lt;span class=&quot;vi&quot;&gt;@example_span&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;add_field&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'rspec.result'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'pending'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+     &lt;span class=&quot;mi&quot;&gt;97&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;   &lt;span class=&quot;vi&quot;&gt;@example_span&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;add_field&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'name'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;notification&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;example&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+     &lt;span class=&quot;mi&quot;&gt;98&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;   &lt;span class=&quot;vi&quot;&gt;@example_span&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;add_field&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'rspec.description'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;notification&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;example&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+ &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;99&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;   &lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'pry'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;binding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;pry&lt;/span&gt;
+    &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;   &lt;span class=&quot;vi&quot;&gt;@example_span&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;add_field&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'rspec.message'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;strip_ansi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;notification&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;message_lines&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+    &lt;span class=&quot;mi&quot;&gt;101&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;   &lt;span class=&quot;vi&quot;&gt;@example_span&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;add_field&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'rspec.backtrace'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;notification&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;formatted_backtrace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+    &lt;span class=&quot;mi&quot;&gt;102&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;   &lt;span class=&quot;vi&quot;&gt;@example_span&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;send&lt;/span&gt;
+    &lt;span class=&quot;mi&quot;&gt;103&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pry&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#&amp;lt;RSpecHoneycombFormatter&amp;gt;)&amp;gt; notification.class&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;RSpec&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Core&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Notifications&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;PendingExampleFailedAsExpectedNotification&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pry&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#&amp;lt;RSpecHoneycombFormatter&amp;gt;)&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The class here is not the same as the initial report is complaining about.
+And this does not fail.
+&lt;code class=&quot;highlighter-rouge&quot;&gt;PendingExampleFailedAsExpectedNotification&lt;/code&gt; does have &lt;code class=&quot;highlighter-rouge&quot;&gt;message_lines&lt;/code&gt;.
+Since the original report didn’t have any more information attached (and for the sake of the pacing of this blog post) I went to honeycomb to see if other modules were exhibiting the same problem.
+After a couple of clicks this was what I had:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/iac/assets/2020-03-30-debugging-with-honeycomb/honeycomb-heatmap.png&quot; alt=&quot;honeycomb heatmap screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The query selects by the error message and returns all examples with that error message.
+Clearly this has been going on for a while.
+Clicking through to the raw data I could jump to the full log of one of the runs:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/iac/assets/2020-03-30-debugging-with-honeycomb/honeycomb-raw-data.png&quot; alt=&quot;honeycomb raw data screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Which brings us to &lt;a href=&quot;https://github.com/puppetlabs/puppetlabs-package/runs/544125013#step:3:445&quot;&gt;this failure on github actions&lt;/a&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;================&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;unlikely&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toxin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;delivery&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;puppetlabs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;net&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;win&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2008&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;r2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x86_64&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;F&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;****&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;FFFFFF&lt;/span&gt;
+
+&lt;span class=&quot;no&quot;&gt;Pending&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Failures&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;listed&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;here&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;are&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;expected&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;affect&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;your&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;suite&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'s status)
+
+  1) package task install installs pry
+     # Don'&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;run&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;on&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Windows&lt;/span&gt;
+     &lt;span class=&quot;no&quot;&gt;On&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;host&lt;/span&gt; &lt;span class=&quot;sb&quot;&gt;`unlikely-toxin.delivery.puppetlabs.net'
+     Failure/Error: @example_span.add_field('rspec.message', strip_ansi(notification.message_lines.join(&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;&quot;)))
+     NoMethodError:
+       undefined method `&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;message_lines&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#&amp;lt;RSpec::Core::Notifications::SkippedExampleNotification:0x00007fe474773368&amp;gt;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This in turn I can look up in &lt;a href=&quot;https://github.com/puppetlabs/puppetlabs-package/blob/b7ff8d9a3982287f30a20111f86413b0350d20d6/spec/acceptance/init_spec.rb&quot;&gt;the source code&lt;/a&gt;.
+I’m assuming the following clause is the issue:&lt;/p&gt;
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;before&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:each&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;skip&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Don't run on Windows&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;operating_system_fact&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'windows'&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Putting that into the manual test case quickly confirmed that this was indeed the problem.
+After being able to reproduce this locally, it was a matter of poking pry to figure out what needs to be done about it.
+The &lt;code class=&quot;highlighter-rouge&quot;&gt;SkippedExampleNotification&lt;/code&gt; doesn’t have a &lt;code class=&quot;highlighter-rouge&quot;&gt;message_lines&lt;/code&gt; method, and needs to be handled differently.
+The result has been posted in the &lt;a href=&quot;https://github.com/puppetlabs/rspec_honeycomb_formatter/pull/10&quot;&gt;“Fix missing message_lines method” PR&lt;/a&gt; and should be merged and released by the time you read this post.&lt;/p&gt;
+
+&lt;p&gt;Finally, to cross-check that this is the only problem we’ve been seeing, I’ve added a &lt;code class=&quot;highlighter-rouge&quot;&gt;rspec.message does-not-contain SkippedExampleNotification&lt;/code&gt; clause to the honeycomb query.
+That new query did not return any results, increasing my confidence in having addressed all currently visible issues with the formatter.&lt;/p&gt;</content><author><name>dev_el_ops</name></author><category term="modules" /><category term="CI" /><category term="debugging" /><category term="testing" /><category term="honeycomb" /><summary type="html">Since last week we’re collecting unit-test results and acceptance test runs in honeycomb, a tool for introspecting and interrogating production systems. In our team’s case, CI is the “production” environment we manage. Today Daniel pointed out that there was a curious issue with one of our test suites:</summary></entry><entry><title type="html">DSC + Puppet: Incoming!</title><link href="https://puppetlabs.github.io/iac/news/roadmap/2020/03/30/dsc-announcement.html" rel="alternate" type="text/html" title="DSC + Puppet: Incoming!" /><published>2020-03-30T00:00:00+00:00</published><updated>2020-03-30T00:00:00+00:00</updated><id>https://puppetlabs.github.io/iac/news/roadmap/2020/03/30/dsc-announcement</id><content type="html" xml:base="https://puppetlabs.github.io/iac/news/roadmap/2020/03/30/dsc-announcement.html">&lt;p&gt;As &lt;a href=&quot;https://github.com/glennsarti&quot;&gt;Glenn&lt;/a&gt; and I alluded to on the &lt;a href=&quot;https://player.fm/series/powerscripting-podcast/episode-334-powerscripting-podcast-glenn-sarti-michael-lombardi&quot;&gt;PowerScripting Podcast&lt;/a&gt;, our team has been hard at work re-envisioning how we want to present the DSC + Puppet story for our users.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://tickets.puppetlabs.com/browse/IAC-41&quot;&gt;Long story short&lt;/a&gt;, for lots of reasons, our &lt;a href=&quot;https://forge.puppet.com/puppetlabs/dsc&quot;&gt;original implementation&lt;/a&gt; for calling DSC resources from inside Puppet (shoutout to &lt;a href=&quot;https://github.com/msutter&quot;&gt;Marc Sutter&lt;/a&gt;, the initial implementer!) was getting fragile, stale, and maintenance costs kept rising.&lt;/p&gt;
+
+&lt;p&gt;As a stop gap, we put together the &lt;a href=&quot;https://forge.puppet.com/puppetlabs/dsc_lite&quot;&gt;dsc_lite&lt;/a&gt; module for people to use which dropped the guardrails and help in exchange for letting you just get to work if you needed to use it.
+Essentially the thinnest of wrappers over &lt;a href=&quot;https://docs.microsoft.com/en-us/powershell/module/psdesiredstateconfiguration/invoke-dscresource?view=powershell-7&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Invoke-DscResource&lt;/code&gt;&lt;/a&gt;, requiring you to get those resources onto the target and to pass an arbitrary hash of &lt;em&gt;hopefully&lt;/em&gt; correct properties to the DSC resource;
+no way to tell if you goofed til run time.&lt;/p&gt;
+
+&lt;p&gt;We made &lt;a href=&quot;https://forge.puppet.com/puppetlabs/dsc_lite&quot;&gt;dsc_lite&lt;/a&gt; for the DSC expert, &lt;a href=&quot;https://github.com/puppetlabs/puppetlabs-dsc_lite/blob/master/README_Tradeoffs.md&quot;&gt;basically&lt;/a&gt;.
+But as time went on and we could no longer use our old builder to update our original module…
+we were leaving a &lt;strong&gt;lot&lt;/strong&gt; of people in the cold with a less than stellar UX.&lt;/p&gt;
+
+&lt;p&gt;So my team decided to change that story.&lt;/p&gt;
+
+&lt;p&gt;We talked it out, &lt;a href=&quot;https://tickets.puppetlabs.com/browse/IAC-41&quot;&gt;planned some stuff&lt;/a&gt; and adopted &lt;a href=&quot;https://github.com/jpogran&quot;&gt;James Pogran&lt;/a&gt;’s INCREDIBLE &lt;a href=&quot;https://github.com/jpogran/PuppetDscBuilder&quot;&gt;prototype work&lt;/a&gt;—he did 80% of the initial work for this, basically all the hardest bits. 💜&lt;/p&gt;
+
+&lt;h2 id=&quot;so-about-this-builder&quot;&gt;So, About This Builder&lt;/h2&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://github.com/puppetlabs/PuppetDscBuilder&quot;&gt;whole thing&lt;/a&gt; is written in and relies on PowerShell, not Ruby.
+The only non-PowerShell dependency is the &lt;a href=&quot;https://puppet.com/docs/pdk/1.x/pdk.html&quot;&gt;Puppet Development Kit&lt;/a&gt; for scaffolding the Puppet module out (no reason to re-implement that!)&lt;/p&gt;
+
+&lt;p&gt;It builds on two important technologies:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The &lt;a href=&quot;https://puppet.com/docs/puppet/latest/about_the_resource_api.html&quot;&gt;resource_api&lt;/a&gt; (largely developed by &lt;a href=&quot;https://github.com/DavidS&quot;&gt;David Schmitt&lt;/a&gt;), makes writing Puppet types and providers &lt;em&gt;actually&lt;/em&gt; doable for people like me—the type file is just data, the provider adheres to a simple schema.&lt;/li&gt;
+  &lt;li&gt;The &lt;a href=&quot;https://github.com/puppetlabs/ruby-pwsh/&quot;&gt;ruby-pwsh&lt;/a&gt; gem, based on work by numerous members of the former Windows team at Puppet:
+&lt;a href=&quot;https://github.com/glennsarti&quot;&gt;Glenn Sarti&lt;/a&gt;, &lt;a href=&quot;https://github.com/jpogran&quot;&gt;James Pogran&lt;/a&gt;, &lt;a href=&quot;https://github.com/Iristyle&quot;&gt;Ethan Brown&lt;/a&gt;, &lt;a href=&quot;https://github.com/RandomNoun7&quot;&gt;Bill Hurt&lt;/a&gt;, &lt;a href=&quot;https://github.com/ThoughtCrhyme&quot;&gt;Erick Banks&lt;/a&gt;, &lt;a href=&quot;https://github.com/ferventcoder&quot;&gt;Rob Reynolds&lt;/a&gt;, and me.
+This gem is a library that gives you a &lt;a href=&quot;https://github.com/puppetlabs/ruby-pwsh/blob/master/DESIGN.md&quot;&gt;PowerShell manager&lt;/a&gt;, enabling you to interop between PowerShell &amp;amp; Ruby.
+That lets us take advantage of having a PowerShell host process and not shell out for every command.
+It’s &lt;em&gt;much&lt;/em&gt; faster and paves the way for some really cool improvements.
+It’s also what powers all of our Puppet modules which rely heavily on PowerShell calls!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This builder scaffolds a new Puppet module, vendors a PowerShell module from the Gallery (&lt;em&gt;with&lt;/em&gt; dependencies), introspects that module for DSC resources, then generates a Puppet resource_api type and provider for each DSC resource.&lt;/p&gt;
+
+&lt;p&gt;It has a &lt;a href=&quot;https://github.com/puppetlabs/PuppetDscBuilder/blob/c5d349f51883abcca926a0dc6be465a037dfe957/Get-DscResourceTypeInformation.ps1&quot;&gt;helper function&lt;/a&gt; which desperately needs refactoring but which parses the &lt;a href=&quot;https://mikefrobbins.com/2018/09/28/learning-about-the-powershell-abstract-syntax-tree-ast/&quot;&gt;AST&lt;/a&gt; for the DSC resource’s source file (if it can) to retrieve the reference docs, default values, and whether the parameter is mandatory for get/set operations.
+If it &lt;em&gt;can’t&lt;/em&gt; parse the AST (as with binary/class-based DSC resources in this iteration) it still works–
+it just won’t have the reference docs and will rely on the best info it can find in the output from &lt;a href=&quot;https://docs.microsoft.com/en-us/powershell/module/psdesiredstateconfiguration/get-dscresource?view=powershell-7&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Get-DscResource&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Okay, &lt;em&gt;fine&lt;/em&gt;, &lt;em&gt;&lt;strong&gt;weeeee&lt;/strong&gt;&lt;/em&gt;, it &lt;a href=&quot;https://github.com/puppetlabs/PuppetDscBuilder/files/4395886/michaeltlombardi-powershellget-0.1.0.tar.gz&quot;&gt;builds a module&lt;/a&gt;, great.
+But what does using it look like?
+I’m glad you asked.
+First of all, here’s what a very basic manifest using a &lt;a href=&quot;https://github.com/puppetlabs/PuppetDscBuilder/files/4395886/michaeltlombardi-powershellget-0.1.0.tar.gz&quot;&gt;puppetized module&lt;/a&gt; looks like–in this case, &lt;a href=&quot;https://www.powershellgallery.com/packages/PowerShellGet/2.2.3&quot;&gt;PowerShellGet&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-puppet highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;dsc_psrepository&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Add team shared module folder as a repository'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;py&quot;&gt;dsc_name&lt;/span&gt;               &lt;span class=&quot;p&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'foo'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;py&quot;&gt;dsc_ensure&lt;/span&gt;             &lt;span class=&quot;p&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;present&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;# This location is nonsense, can be any valid folder on your
+&lt;/span&gt;    &lt;span class=&quot;c&quot;&gt;# machine or in a share, any location the SourceLocation param
+&lt;/span&gt;    &lt;span class=&quot;c&quot;&gt;# for the DSC resource will accept.
+&lt;/span&gt;    &lt;span class=&quot;py&quot;&gt;dsc_sourcelocation&lt;/span&gt;     &lt;span class=&quot;p&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'C:\Program Files'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;py&quot;&gt;dsc_installationpolicy&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;untrusted&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;dsc_psrepository&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Trust the PowerShell Gallery'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;py&quot;&gt;dsc_name&lt;/span&gt;               &lt;span class=&quot;p&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'PSGallery'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;py&quot;&gt;dsc_ensure&lt;/span&gt;             &lt;span class=&quot;p&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;present&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;py&quot;&gt;dsc_installationpolicy&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;trusted&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;dsc_psmodule&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Ensure Ruby is Manageable via uru'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;py&quot;&gt;dsc_name&lt;/span&gt;   &lt;span class=&quot;p&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'RubyInstaller'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;py&quot;&gt;dsc_ensure&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;absent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And, well? It works! It’s idempotent! And, much more interestingly from my perspective, it gives you property-by-property reporting for your DSC resources–it knows what the state of the resource is on your node before it calls the Set method for Invoke-DscResource…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/iac/assets/2020-03-30-dsc-announcement/property-rep.png&quot; alt=&quot;Puppet run output reading &amp;quot;dsc_sourcelocation changed 'C:\code\temp' to 'C:\Program Files'&amp;quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So it can actually tell you &lt;em&gt;what changed&lt;/em&gt; during the run and when.
+In other words, DSC resources in this implementation now report &lt;strong&gt;just&lt;/strong&gt; like any other Puppet resource.&lt;/p&gt;
+
+&lt;p&gt;That’s pretty neat!!&lt;/p&gt;
+
+&lt;p&gt;What else do you get?
+Intellisense and some other awesome magic!
+Thanks to the &lt;a href=&quot;https://puppet-vscode.github.io/&quot;&gt;VSCode extension&lt;/a&gt; maintained by &lt;a href=&quot;https://github.com/jpogran&quot;&gt;James Pogran&lt;/a&gt; and &lt;a href=&quot;https://github.com/glennsarti&quot;&gt;Glenn Sarti&lt;/a&gt;—in this screenshot, the editor is aware of all the parameters you might select, what their type is, and the valid values!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/iac/assets/2020-03-30-dsc-announcement/intellisense.jfif&quot; alt=&quot;Image displaying intellisense capabilities of the VSCode extension where it is predicting which parameters to use and displaying their help information inline in the editor.&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Aside:&lt;/strong&gt;
+You &lt;em&gt;are&lt;/em&gt; writing your Puppet code in VSCode with the &lt;a href=&quot;https://puppet-vscode.github.io/&quot;&gt;Puppet extension&lt;/a&gt; installed, aren’t you?
+You’re taking advantage of the &lt;a href=&quot;https://puppet-vscode.github.io/docs/features/intellisense&quot;&gt;intellisense&lt;/a&gt;, &lt;a href=&quot;https://puppet-vscode.github.io/docs/features/code-navigation&quot;&gt;code navigation&lt;/a&gt;, &lt;a href=&quot;https://puppet-vscode.github.io/docs/features/linting&quot;&gt;auto linting&lt;/a&gt;, &lt;a href=&quot;https://puppet-vscode.github.io/docs/features/debugging-puppet-code&quot;&gt;debugging&lt;/a&gt;, and the &lt;a href=&quot;https://puppet-vscode.github.io/docs/features/puppet-development-kit&quot;&gt;PDK&lt;/a&gt;, &lt;a href=&quot;https://puppet-vscode.github.io/docs/features/puppet-bolt&quot;&gt;Bolt&lt;/a&gt;, &amp;amp; &lt;a href=&quot;https://puppet-vscode.github.io/docs/features/control-repository&quot;&gt;Control Repo&lt;/a&gt; integrations… right??&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;so-it-works-what-next&quot;&gt;So It Works. What Next?&lt;/h2&gt;
+
+&lt;p&gt;We still have some testing and a host of improvements to make (including probably swapping our template engine out, shout out to &lt;a href=&quot;https://github.com/FriedrichWeinmann&quot;&gt;Fred Weinmann&lt;/a&gt; for the &lt;a href=&quot;https://psframework.org/documentation/documents/psmoduledevelopment/templates.html&quot;&gt;templating engine&lt;/a&gt; in the &lt;a href=&quot;https://github.com/PowershellFrameworkCollective/PSModuleDevelopment&quot;&gt;PSModuleDevelopment&lt;/a&gt; module), but the next big step—and likely the last I’ll be involved with before my paternity leave hits—is &lt;a href=&quot;https://tickets.puppetlabs.com/browse/IAC-648&quot;&gt;turning this build script into a PowerShell module and adding testing to it&lt;/a&gt;.
+It &lt;em&gt;works&lt;/em&gt; as a build script, but it can definitely be improved.
+And, okay, a module on the Gallery is great and all…&lt;/p&gt;
+
+&lt;p&gt;But the &lt;strong&gt;really cool&lt;/strong&gt; end-user magic will arrive in the &lt;a href=&quot;https://tickets.puppetlabs.com/browse/IAC-649&quot;&gt;third phase&lt;/a&gt;, where we hope to be able to automatically build and publish Puppet modules that 1:1 wrap PowerShell modules with DSC resources and expose them as Puppet types and providers!&lt;/p&gt;
+
+&lt;p&gt;We’re envisioning a future where not only can you Puppetize any DSC-Resource-having-module you want for yourself, but you can just find all of the modules publicly available on the Gallery already wrapped up and ready for you on the Puppet Forge!&lt;/p&gt;
+
+&lt;h2 id=&quot;caveats-and-warnings&quot;&gt;Caveats and Warnings&lt;/h2&gt;
+
+&lt;p&gt;We’re &lt;em&gt;just&lt;/em&gt; wrapping the underlying DSC resources and making them available to you.
+If there’s a problem &lt;em&gt;calling&lt;/em&gt; the DSC resources from Puppet, we’ll work on it, but if there’s a problem with &lt;em&gt;how&lt;/em&gt; those resources behave, that’s upstream.&lt;/p&gt;
+
+&lt;p&gt;Our team is full of lovely humans who do incredible amounts of work (seven people for &lt;a href=&quot;https://puppetlabs.github.io/community_management/&quot;&gt;&amp;gt;250 PRs/month, ~50 supported modules&lt;/a&gt;, &lt;a href=&quot;https://puppetlabs.github.io/iac/tools/&quot;&gt;over a dozen open source tools&lt;/a&gt;, contributing to dozens more) but we can’t adopt &amp;gt; 300 DSC modules too. 💔&lt;/p&gt;
+
+&lt;p&gt;We’ll also continue to improve the underlying provider and build system, of course, and are excited to get the output modules fully functional for PowerShell 7+ - meaning they’ll be cross-platform compatible if the underlying resources are!
+This first prototype is just 5.1 though.&lt;/p&gt;
+
+&lt;h2 id=&quot;wrapping-up-call-to-action&quot;&gt;Wrapping Up, Call to Action&lt;/h2&gt;
+
+&lt;p&gt;So! If you’re interested in the work so far, you can &lt;a href=&quot;https://github.com/puppetlabs/PuppetDscBuilder&quot;&gt;check it out on GitHub&lt;/a&gt;–
+the &lt;a href=&quot;https://github.com/puppetlabs/PuppetDscBuilder/pull/1&quot;&gt;latest PR&lt;/a&gt; includes functional instructions for testing the new builder or just &lt;a href=&quot;https://github.com/puppetlabs/PuppetDscBuilder/files/4395886/michaeltlombardi-powershellget-0.1.0.tar.gz&quot;&gt;grabbing the test module&lt;/a&gt; and playing with it in your own lab!&lt;/p&gt;
+
+&lt;p&gt;We wanna tighten the loop and ensure we’re solving your problems with this rework because the &lt;em&gt;whole point&lt;/em&gt; is to make your lives easier if you’re using Puppet and DSC.
+We’re here to help you get your configuration under control and free you up to do all the other hard work you have on your backlog.&lt;/p&gt;
+
+&lt;p&gt;With that in mind, we would love your feedback, so if this tickles your interest at all, please &lt;a href=&quot;mailto:dsc@puppet.com&quot;&gt;email us&lt;/a&gt; (&lt;a href=&quot;mailto:dsc@puppet.com&quot;&gt;dsc@puppet.com&lt;/a&gt;) or comment below and let us know:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;What are the top three PowerShell modules with DSC resources you’d like to see Puppetized?&lt;/li&gt;
+  &lt;li&gt;Are you interested in joining our beta test group for this ongoing project?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If you just wanna keep an eye on things, you can follow the repository on GitHub and the &lt;a href=&quot;https://tickets.puppetlabs.com/browse/IAC-41&quot;&gt;parent epic in JIRA&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;Thanks, folx!&lt;/p&gt;</content><author><name>michaeltlombardi</name></author><category term="powershell" /><category term="dsc" /><category term="windows" /><summary type="html">As Glenn and I alluded to on the PowerScripting Podcast, our team has been hard at work re-envisioning how we want to present the DSC + Puppet story for our users.</summary></entry><entry><title type="html">27th March 2020: IAC Team Status Update</title><link href="https://puppetlabs.github.io/iac/team/status/2020/03/27/status-update.html" rel="alternate" type="text/html" title="27th March 2020: IAC Team Status Update" /><published>2020-03-27T00:00:00+00:00</published><updated>2020-03-27T00:00:00+00:00</updated><id>https://puppetlabs.github.io/iac/team/status/2020/03/27/status-update</id><content type="html" xml:base="https://puppetlabs.github.io/iac/team/status/2020/03/27/status-update.html">&lt;p&gt;The IAC team has been working on a lot of interesting things over the past week.
 Here’s a brief overview of what we’ve been up to:&lt;/p&gt;
 
 &lt;h2 id=&quot;covid-19&quot;&gt;COVID-19&lt;/h2&gt;
@@ -609,266 +864,4 @@ different kinds of function invocations, and vastly improved code reuse.&lt;/p&g
 &lt;/blockquote&gt;
 
 &lt;p&gt;If you want to follow along or provide feedback,
-please avail yourself of &lt;a href=&quot;https://tickets.puppetlabs.com/browse/IAC-114&quot;&gt;IAC-114&lt;/a&gt;.&lt;/p&gt;</content><author><name>dev_el_ops</name></author><category term="module updates" /><category term="community" /><category term="approved" /><category term="litmus" /><category term="powershell" /><category term="sqlserver" /><category term="vsphere" /><category term="modulebuilder" /><category term="stdlib" /><summary type="html">The IAC team has been working on a lot of interesting things over the past week. Here’s a brief overview of what we’ve been up to:</summary></entry><entry><title type="html">Setting up basic infrastructure for your gem</title><link href="https://puppetlabs.github.io/iac/gem/development/2020/02/19/infrastructure-for-the-gem.html" rel="alternate" type="text/html" title="Setting up basic infrastructure for your gem" /><published>2020-02-19T00:00:00+00:00</published><updated>2020-02-19T00:00:00+00:00</updated><id>https://puppetlabs.github.io/iac/gem/development/2020/02/19/infrastructure-for-the-gem</id><content type="html" xml:base="https://puppetlabs.github.io/iac/gem/development/2020/02/19/infrastructure-for-the-gem.html">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
-
-&lt;p&gt;Here we will be going through the steps and best practices for setting up basic infrastructure for your gem.
-The steps given can be followed by anyone to setup the basic infrastructure for gem development which does the following.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;creates the basic file structure for the gem.&lt;/li&gt;
-  &lt;li&gt;adds the rubocop which validates the guidelines outlined in the community Ruby Style Guide.&lt;/li&gt;
-  &lt;li&gt;adds the travis or appveyor testing to the repo which validates the changes to the repo.&lt;/li&gt;
-  &lt;li&gt;adds the dependendabot to the repo which creates pull requests to keep dependencies up to date.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;h4 id=&quot;note&quot;&gt;Note:&lt;/h4&gt;
-
-  &lt;p&gt;This walkthrough assumes you have the following software installed:&lt;/p&gt;
-
-  &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&quot;https://www.ruby-lang.org/en/downloads/&quot;&gt;Ruby&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-
-  &lt;p&gt;It also assumes familiarity with the &lt;a href=&quot;https://rubygems.org/&quot;&gt;Ruby gems&lt;/a&gt;.&lt;/p&gt;
-
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;infrastructure-for-your-gem&quot;&gt;Infrastructure for your gem&lt;/h2&gt;
-
-&lt;p&gt;We’re going through the steps and best practices for setting up basic infrastructure for your gem.&lt;/p&gt;
-
-&lt;p&gt;For any repo created for developing a Gem we add owner, access and license to the repo.
-Follow the steps below to add them.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Open a &lt;a href=&quot;https://github.com&quot;&gt;git hub&lt;/a&gt; page, perform the rest of these actions from there.
-    &lt;ol&gt;
-      &lt;li&gt;
-        &lt;p&gt;Click on + to create a new repo.
-&lt;img src=&quot;/iac/assets/2020-02-19-infrastructure-for-the-gem/newrepo.png&quot; alt=&quot;+&quot; /&gt;&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Provider the owner information, repo name and license.
-&lt;img src=&quot;/iac/assets/2020-02-19-infrastructure-for-the-gem/owner.png&quot; alt=&quot;owner information and repo name&quot; /&gt;
-&lt;img src=&quot;/iac/assets/2020-02-19-infrastructure-for-the-gem/license.png&quot; alt=&quot;license&quot; /&gt;&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Click on Create repository button.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Open the new repo created and navigate to settings tab to update the access.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Provide your team as admin on github. (This example shows Puppet’s modules team)
-&lt;img src=&quot;/iac/assets/2020-02-19-infrastructure-for-the-gem/githubowner.png&quot; alt=&quot;admin&quot; /&gt;&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Follow the steps below for creating the gem structure, add the rubocop validation, add the travis or appveyor testing to the repo.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Open the command line and perform the rest of these actions from there.
-    &lt;ol&gt;
-      &lt;li&gt;Clone the new repo created. Add the upstream project and checkout the branch.
-        &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/sheenaajay/puppet-modulebuilder.git
-git remote add puppetlabs https://github.com/puppetlabs/puppet-modulebuilder.git
-git checkout &lt;span class=&quot;nt&quot;&gt;-b&lt;/span&gt; blogpost
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Create a ruby gem with bundler and perform the commit.
-        &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle gem puppet-modulebuilder
-git add &lt;span class=&quot;nt&quot;&gt;-A&lt;/span&gt;
-git commit &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Initial commit of puppet-modulebuilder gem scaffolding&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
-        &lt;p&gt;See &lt;a href=&quot;https://yehudakatz.com/2010/12/16/clarifying-the-roles-of-the-gemspec-and-gemfile/&quot;&gt;Clarifying the Roles of the .gemspec and Gemfile&lt;/a&gt; on whether you want to commit the &lt;code class=&quot;highlighter-rouge&quot;&gt;Gemfile.lock&lt;/code&gt; or not.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Remove unused default gem development scripts if any and perform the commit.
-        &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-r&lt;/span&gt; bin/console
-&lt;span class=&quot;nb&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-r&lt;/span&gt; bin/setup
-git add &lt;span class=&quot;nt&quot;&gt;-A&lt;/span&gt;
-git commit &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Remove unused default gem development scripts&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Update gemspec with actual values for spec.authors, spec.email, spec.summary, spec.description, spec.homepage, spec.metadata.
-&lt;img src=&quot;/iac/assets/2020-02-19-infrastructure-for-the-gem/gemspec.png&quot; alt=&quot;gemspec&quot; /&gt;
-        &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git add &lt;span class=&quot;nt&quot;&gt;-A&lt;/span&gt;
-git commit &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Update gemspec with actual values&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Copy puppet-style rubocop rules(Example from &lt;a href=&quot;https://github.com/puppetlabs/pdk/blob/master/.rubocop.yml&quot;&gt;pdk repo&lt;/a&gt;), activate and apply default fixes.
-        &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--path&lt;/span&gt; .bundle/gems/
-bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;rubocop
-git add &lt;span class=&quot;nt&quot;&gt;-A&lt;/span&gt;
-git commit &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Include, activate rubocop, apply default fixes&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Add instruction files for travis-ci and appveyor. Sample &lt;a href=&quot;https://github.com/puppetlabs/puppet-modulebuilder/pull/1&quot;&gt;PR&lt;/a&gt; contains travis.yml and appveyor.yml.
-        &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git add &lt;span class=&quot;nt&quot;&gt;-A&lt;/span&gt;
-git commit &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Add instruction files for travis-ci and appveyor&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Add modules team to CODEOWNERS.
-  Create the CODEOWNERS file in .github/CODEOWNERS
-        &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git add &lt;span class=&quot;nt&quot;&gt;-A&lt;/span&gt;
-git commit &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Add modules team to CODEOWNERS&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
-      &lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Finally push your changes to the branch and create the PR “Basic infrastructure”
-Sample &lt;a href=&quot;https://github.com/puppetlabs/puppet-modulebuilder/pull/1&quot;&gt;PR&lt;/a&gt; for reference&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Follow the steps below for enabling CI jobs and dependabot for the repo.
-    &lt;ol&gt;
-      &lt;li&gt;Set up travs-ci.org for simple rubocop and spec testing. Open a &lt;a href=&quot;https://travis-ci.org/account/repositories&quot;&gt;travis-ci-org&lt;/a&gt; page. Click on      Sync account.
-&lt;img src=&quot;/iac/assets/2020-02-19-infrastructure-for-the-gem/syncaccount.png&quot; alt=&quot;Sync account&quot; /&gt;&lt;/li&gt;
-      &lt;li&gt;Set up appveyor for simple rubocop and spec testing. Open a &lt;a href=&quot;https://ci.appveyor.com/account/puppetlabs/projects/new&quot;&gt;ci-appveyor&lt;/a&gt; page.        Click on Add.
-&lt;img src=&quot;/iac/assets/2020-02-19-infrastructure-for-the-gem/add.png&quot; alt=&quot;Add&quot; /&gt;&lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Allow dependabot access the new repo created. Open a &lt;a href=&quot;https://app.dependabot.com/accounts/puppetlabs/&quot;&gt;dependabot&lt;/a&gt; page.
-Click on + , select the repo and provide access.
-&lt;img src=&quot;/iac/assets/2020-02-19-infrastructure-for-the-gem/dependabotadd.png&quot; alt=&quot;+&quot; /&gt;&lt;/p&gt;
-
-        &lt;p&gt;&lt;img src=&quot;/iac/assets/2020-02-19-infrastructure-for-the-gem/dependabot.png&quot; alt=&quot;repo created&quot; /&gt;&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Enable dependabot for the repo.
-&lt;img src=&quot;/iac/assets/2020-02-19-infrastructure-for-the-gem/dependabotenable.png&quot; alt=&quot;+&quot; /&gt;&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;wrapping-up&quot;&gt;Wrapping Up&lt;/h2&gt;
-
-&lt;p&gt;Hooray! We’ve created the infrastructure for our gem !&lt;/p&gt;</content><author><name>sheenaajay</name></author><category term="walkthrough" /><category term="modules" /><category term="testing" /><summary type="html">Introduction</summary></entry><entry><title type="html">14th Feb 2020: IAC Team Status Update</title><link href="https://puppetlabs.github.io/iac/team/status/2020/02/14/status-update.html" rel="alternate" type="text/html" title="14th Feb 2020: IAC Team Status Update" /><published>2020-02-14T00:00:00+00:00</published><updated>2020-02-14T00:00:00+00:00</updated><id>https://puppetlabs.github.io/iac/team/status/2020/02/14/status-update</id><content type="html" xml:base="https://puppetlabs.github.io/iac/team/status/2020/02/14/status-update.html">&lt;p&gt;The IAC team has been working on a lot of interesting things over the past week. Here’s a brief overview of what we’ve been up to:&lt;/p&gt;
-
-&lt;h2 id=&quot;updates-to-puppet-modules&quot;&gt;Updates to Puppet Modules&lt;/h2&gt;
-&lt;p&gt;We’ve released an update to two modules since last week:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://forge.puppet.com/puppetlabs/pwshlib&quot;&gt;puppetlabs/pwshlib&lt;/a&gt; (v0.4.1)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://forge.puppet.com/puppetlabs/scheduled_task&quot;&gt;puppetlabs/scheduled_task&lt;/a&gt; (v2.0.1)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This update to &lt;a href=&quot;https://forge.puppet.com/puppetlabs/scheduled_task&quot;&gt;puppetlabs/scheduled_task&lt;/a&gt; resolves an issue reported in &lt;a href=&quot;https://tickets.puppetlabs.com/browse/MODULES-10101&quot;&gt;MODULES-10101&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A fix went in to &lt;a href=&quot;https://forge.puppet.com/puppetlabs/pwshlib&quot;&gt;puppetlabs/pwshlib&lt;/a&gt; to resolve a bug that was causing runtime errors on older versions of Ruby. See &lt;a href=&quot;https://github.com/puppetlabs/ruby-pwsh/pull/30&quot;&gt;here&lt;/a&gt; for more details.&lt;/p&gt;
-
-&lt;p&gt;We’ll have more module releases next week, but a few interesting updates to come:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://forge.puppet.com/puppetlabs/java&quot;&gt;puppetlabs-java&lt;/a&gt;:&lt;/strong&gt; Thanks to &lt;a href=&quot;https://github.com/timdeluxe&quot;&gt;timdeluxe&lt;/a&gt; for &lt;a href=&quot;https://github.com/puppetlabs/puppetlabs-java/pull/370&quot;&gt;the PR&lt;/a&gt; to add support for &lt;a href=&quot;https://adoptopenjdk.net/&quot;&gt;AdoptOpen JDK&lt;/a&gt; to the module. &lt;a href=&quot;https://github.com/fraenki&quot;&gt;fraenki&lt;/a&gt; was also a great help in getting this PR over the line. We’ll releasing an update to the module soon!&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://forge.puppet.com/puppetlabs/mysql&quot;&gt;puppetlabs-mysql&lt;/a&gt;:&lt;/strong&gt; &lt;a href=&quot;https://github.com/puppetlabs/puppetlabs-mysql/pull/1192&quot;&gt;This is a nice PR&lt;/a&gt; from &lt;a href=&quot;https://github.com/mauricemeyer&quot;&gt;mauricemeyer&lt;/a&gt; that now allows a user to override the default configuration for mysql, if you wish. Thanks to &lt;a href=&quot;https://github.com/bastelfreak&quot;&gt;bastelfreak&lt;/a&gt; for the help during the review stages.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://forge.puppet.com/puppetlabs/apt&quot;&gt;puppetlabs-apt&lt;/a&gt;:&lt;/strong&gt; &lt;a href=&quot;https://github.com/anarcat&quot;&gt;anarcat&lt;/a&gt; submitted &lt;a href=&quot;https://github.com/puppetlabs/puppetlabs-apt/pull/904&quot;&gt;this fix&lt;/a&gt; which also highlighted an issue with our tests. Two for the price of one! Thanks to &lt;a href=&quot;https://github.com/bastelfreak&quot;&gt;bastelfreak&lt;/a&gt; and &lt;a href=&quot;https://github.com/baldurmen&quot;&gt;baldurmen&lt;/a&gt; for the reviews, too.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;were-still-buzzing-about-honeycomb&quot;&gt;We’re still buzzing about Honeycomb&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/iac/assets/2020-02-14-status-update/honeycomb_rspec_formatter.png&quot; alt=&quot;Module RSpec trace&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We’re continuing to see the benefits of &lt;a href=&quot;https://www.honeycomb.io/&quot;&gt;Honeycomb&lt;/a&gt;. To make life easier, we now have the &lt;a href=&quot;https://github.com/puppetlabs/rspec_honeycomb_formatter&quot;&gt;rspec_honeycomb_formatter&lt;/a&gt;.
-When you add this gem to a project’s Gemfile, it will create a &lt;a href=&quot;https://relishapp.com/rspec/rspec-core/docs/formatters/custom-formatters&quot;&gt;Custom formatter in RSpec&lt;/a&gt; that will capture the metrics we’re interested in, then send it to the configured Honeycomb endpoint for processing!&lt;/p&gt;
-
-&lt;h2 id=&quot;supported-modules-litmus-conversion&quot;&gt;Supported Modules Litmus Conversion&lt;/h2&gt;
-&lt;p&gt;We’re starting to get to the bottom of the list of modules still to be converted to &lt;a href=&quot;https://github.com/puppetlabs/puppet_litmus&quot;&gt;Litmus&lt;/a&gt;. We’re wrapping up on &lt;a href=&quot;https://github.com/puppetlabs/puppetlabs-powershell/&quot;&gt;puppetlabs-powershell&lt;/a&gt;, &lt;a href=&quot;https://github.com/puppetlabs/puppetlabs-sqlserver/&quot;&gt;puppetlabs-sqlserver&lt;/a&gt; and &lt;a href=&quot;https://github.com/puppetlabs/puppetlabs-vsphere/&quot;&gt;puppetlabs-vsphere&lt;/a&gt;.
-Converting to Litmus makes testing of the modules for both ourselves at Puppet and contributors from the Community, a much easier experience.
-If you’re interested in porting a module to Litmus, feel free to reach out to us during &lt;a href=&quot;https://puppet.com/community/office-hours/&quot;&gt;Office Hours&lt;/a&gt; - we’ll be glad to help!&lt;/p&gt;</content><author><name>criskoduck</name></author><category term="module updates" /><category term="tooling" /><category term="personal" /><category term="honeycomb" /><category term="metrics" /><category term="litmus" /><category term="windows" /><category term="powershell" /><summary type="html">The IAC team has been working on a lot of interesting things over the past week. Here’s a brief overview of what we’ve been up to:</summary></entry><entry><title type="html">Gem Testing with pdksync</title><link href="https://puppetlabs.github.io/iac/pdksync/testing/2020/02/12/gem-testing-with-pdksync.html" rel="alternate" type="text/html" title="Gem Testing with pdksync" /><published>2020-02-12T00:00:00+00:00</published><updated>2020-02-12T00:00:00+00:00</updated><id>https://puppetlabs.github.io/iac/pdksync/testing/2020/02/12/gem-testing-with-pdksync</id><content type="html" xml:base="https://puppetlabs.github.io/iac/pdksync/testing/2020/02/12/gem-testing-with-pdksync.html">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
-
-&lt;p&gt;pdksync enables you to do a lot more than just pdk update against a set of defined modules. In this blog post we will be going through single or multi gem testing features of pdksync.&lt;/p&gt;
-
-&lt;h2 id=&quot;setup&quot;&gt;Setup&lt;/h2&gt;
-
-&lt;p&gt;Download a fork of the repo, which can be found here &lt;a href=&quot;https://github.com/puppetlabs/pdksync&quot;&gt;pdksync&lt;/a&gt;. Or you can install via Rubygems, it can be found here &lt;a href=&quot;https://rubygems.org/gems/pdksync&quot;&gt;pdksync&lt;/a&gt;.
-Install gems by using &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle install&lt;/code&gt;.
-Ensure you have a GITHUB_TOKEN set in your env, if you don’t add it by running &lt;code class=&quot;highlighter-rouge&quot;&gt;export GITHUB_TOKEN=&amp;lt;your github token&amp;gt;&lt;/code&gt;, this is required for authentication.
-Important - Manually edit the list contained in ‘managed_modules.yml’ to ensure it is correct with the modules you wish to update. Please note this is critical as this tool will create PRs against the repos included in this list - you don’t want to run this against a module you aren’t familiar with. Do not proceed to the next step without doing this.
-Run the rake task by using &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec rake pdksync&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;part-one-functionality-single-gem-testing&quot;&gt;Part One: Functionality Single Gem Testing&lt;/h2&gt;
-
-&lt;p&gt;pdksync tool comes with the feature to update the Gemfile. Puppet provides a lot of useful gems to access and manage their functionality between modules. This functionality will help user to perform gem testing prior to release. User is given new rake tasks to update SHA/Version/Branch/line in the Gemfile. Then the changes can be committed, PR can be created which will run the acceptance tests in the PR. If all the tests are executing successfully then the user can close the PRS and release the gem.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;h4 id=&quot;note&quot;&gt;Note:&lt;/h4&gt;
-
-  &lt;p&gt;It assumes very limited familiarity with the &lt;a href=&quot;https://github.com/puppetlabs/pdksync&quot;&gt;pdksync&lt;/a&gt; and &lt;a href=&quot;https://puppet.com/blog/keep-your-puppet-modules-up-to-date-pdk/&quot;&gt;pdk&lt;/a&gt;&lt;/p&gt;
-
-&lt;/blockquote&gt;
-
-&lt;p&gt;Run gem_file_update against modules&lt;/p&gt;
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pdksync:gem_file_update[:gem_to_test, :gem_line, :gem_sha_finder, :gem_sha_replacer, :gem_version_finder, :gem_version_replacer, :gem_branch_finder, :gem_branch_replacer]
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;eg rake to update gem line&lt;/p&gt;
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pdksync:gem_file_update[&lt;span class=&quot;s1&quot;&gt;'puppet_litmus'&lt;/span&gt;, &lt;span class=&quot;s2&quot;&gt;&quot;gem 'puppet_litmus'&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; git: 'https://github.com/test/puppet_litmus.git'&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; branch: 'testbranch'&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;eg rake to update sha&lt;/p&gt;
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pdksync:gem_file_update[&lt;span class=&quot;s1&quot;&gt;'puppet_litmus'&lt;/span&gt;, &lt;span class=&quot;s1&quot;&gt;''&lt;/span&gt;, &lt;span class=&quot;s1&quot;&gt;'20ee04ba1234e9e83eb2ffb5056e23d641c7a018'&lt;/span&gt;, &lt;span class=&quot;s1&quot;&gt;'20ee04ba1234e9e83eb2ffb5056e23d641c7a31'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;eg rake to update version&lt;/p&gt;
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pdksync:gem_file_update[&lt;span class=&quot;s1&quot;&gt;'puppet_litmus'&lt;/span&gt;, &lt;span class=&quot;s1&quot;&gt;''&lt;/span&gt;, &lt;span class=&quot;s1&quot;&gt;''&lt;/span&gt;, &lt;span class=&quot;s1&quot;&gt;''&lt;/span&gt;, &lt;span class=&quot;s2&quot;&gt;&quot;= 0.9.0&quot;&lt;/span&gt;, &lt;span class=&quot;s2&quot;&gt;&quot;&amp;lt;= 0.10.0&quot;&lt;/span&gt;, &lt;span class=&quot;s1&quot;&gt;''&lt;/span&gt;, &lt;span class=&quot;s1&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;eg rake to update branch&lt;/p&gt;
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pdksync:gem_file_update[&lt;span class=&quot;s1&quot;&gt;'puppet_litmus'&lt;/span&gt;, &lt;span class=&quot;s1&quot;&gt;''&lt;/span&gt;, &lt;span class=&quot;s1&quot;&gt;''&lt;/span&gt;, &lt;span class=&quot;s1&quot;&gt;''&lt;/span&gt;, &lt;span class=&quot;s1&quot;&gt;''&lt;/span&gt;, &lt;span class=&quot;s1&quot;&gt;''&lt;/span&gt;, &lt;span class=&quot;s1&quot;&gt;'testbranch'&lt;/span&gt;, &lt;span class=&quot;s1&quot;&gt;'testbranches'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Below given are the workflows for doing single gem testing with pdksync.&lt;/p&gt;
-
-&lt;p&gt;In Workflow 1 we can clone modules, update the gem file, create the commit, push the changes and create the PR using separate rake tasks.&lt;/p&gt;
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--path&lt;/span&gt; .bundle/gems/
-bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;rake git:clone_managed_modules
-bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;rake &lt;span class=&quot;s1&quot;&gt;'pdksync:gem_file_update[]'&lt;/span&gt;
-bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;rake &lt;span class=&quot;s1&quot;&gt;'git:create_commit[]'&lt;/span&gt;
-bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;rake &lt;span class=&quot;s1&quot;&gt;'git:push'&lt;/span&gt;
-bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;rake &lt;span class=&quot;s1&quot;&gt;'git:create_pr[]'&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;In Workflow 2 we can clone modules, update the gem file, create the commit, push the changes and create the PR using single rake task&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Using single rake job
-bundle install --path .bundle/gems/
-bundle exec rake 'gem_testing[]'
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Once the verified gem is released we can use pdksync to update the the new version of gem released in the &lt;code class=&quot;highlighter-rouge&quot;&gt;.sync.yaml&lt;/code&gt; file.&lt;/p&gt;
-
-&lt;h2 id=&quot;part-two-functionality-multi-gem-testing&quot;&gt;Part Two: Functionality Multi Gem Testing&lt;/h2&gt;
-
-&lt;p&gt;pdksync tool is extended with the feature to perform multi gem testing (&lt;code class=&quot;highlighter-rouge&quot;&gt;puppet-module-gems&lt;/code&gt;). This functionality will identify the current version and bump the version by one. Then it will build and push the gems to gemfury account. Export the GEMFURY_TOKEN to use this rake task.&lt;/p&gt;
-
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;GEMFURY_TOKEN&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&amp;lt;access_token&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Run the following commands to check that everything is working as expected:&lt;/p&gt;
-
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--path&lt;/span&gt; .bundle/gems/
-bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;rake &lt;span class=&quot;nt&quot;&gt;-T&lt;/span&gt;
-bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;rake &lt;span class=&quot;s1&quot;&gt;'git:clone_gem[puppet-module-gems]'&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Run multigem_file_update against modules:&lt;/p&gt;
-
-&lt;p&gt;Clone gem&lt;/p&gt;
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git:clone_gem[&lt;span class=&quot;s1&quot;&gt;'puppet-module-gems'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Build and Push new gems built to the gemfury account for testing&lt;/p&gt;
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pdksync:multi_gem_testing[&lt;span class=&quot;s1&quot;&gt;'puppet-module-gems'&lt;/span&gt;,&lt;span class=&quot;s1&quot;&gt;'config/info.yml'&lt;/span&gt;,&lt;span class=&quot;s1&quot;&gt;'exe/build-gems.rb'&lt;/span&gt;,&lt;span class=&quot;s1&quot;&gt;'pkg'&lt;/span&gt;,&lt;span class=&quot;s1&quot;&gt;'gem_tester'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Update Gemfile of the modules with the new gem should be pushed to Gemfury.&lt;/p&gt;
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pdksync:multigem_file_update[&lt;span class=&quot;s1&quot;&gt;'puppet-module'&lt;/span&gt;,&lt;span class=&quot;s1&quot;&gt;'tester'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Below given is the workflows for doing multi gem testing with pdksync.&lt;/p&gt;
-
-&lt;p&gt;In this workflow we can clone gems, update the version, build the gem, push the changes to gemfury and update the gem file of the required modules with the latest gem updated in the fury. Then we can create PR or run tests locally or run tests through jenkins to verify the module test results.&lt;/p&gt;
-
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--path&lt;/span&gt; .bundle/gems/
-bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;rake &lt;span class=&quot;s1&quot;&gt;'git:clone_gem[puppet-module-gems]'&lt;/span&gt;
-bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;rake &lt;span class=&quot;s1&quot;&gt;'pdksync:multi_gem_testing[]'&lt;/span&gt;
-bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;rake &lt;span class=&quot;s1&quot;&gt;'pdksync:multigem_file_update[]'&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;wrapping-up&quot;&gt;Wrapping Up&lt;/h2&gt;
-
-&lt;p&gt;These are the steps that we can follow to perform single or multi gem testing using pdksync.&lt;/p&gt;</content><author><name>sheenaajay</name></author><category term="walkthrough" /><category term="modules" /><category term="gems" /><summary type="html">Introduction</summary></entry></feed>
+please avail yourself of &lt;a href=&quot;https://tickets.puppetlabs.com/browse/IAC-114&quot;&gt;IAC-114&lt;/a&gt;.&lt;/p&gt;</content><author><name>dev_el_ops</name></author><category term="module updates" /><category term="community" /><category term="approved" /><category term="litmus" /><category term="powershell" /><category term="sqlserver" /><category term="vsphere" /><category term="modulebuilder" /><category term="stdlib" /><summary type="html">The IAC team has been working on a lot of interesting things over the past week. Here’s a brief overview of what we’ve been up to:</summary></entry></feed>
