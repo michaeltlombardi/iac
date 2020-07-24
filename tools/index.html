@@ -4,7 +4,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Tools | Puppet IAC Team</title>
-<meta name="generator" content="Jekyll v4.0.0" />
+<meta name="generator" content="Jekyll v4.1.1" />
 <meta property="og:title" content="Tools" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Team blog and list of maintained tools by and for the Puppet Infrastructure Automation Content Team." />
@@ -41,7 +41,7 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/iac/about/">About</a><a class="page-link" href="/iac/tools/">Tools</a></div>
+        <div class="trigger"><a class="page-link" href="/iac/docs/">Docs</a><a class="page-link" href="/iac/modules/">Modules</a><a class="page-link" href="/iac/tools/">Tools</a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
@@ -53,36 +53,41 @@
   </header>
 
   <div class="post-content">
-    <h1></h1>
-<h2>Summary</h2>
+    <p>A list of the tools developed and maintained by the IA Content Team.</p>
 
-<p></p>
+
 
 <ul>
-  
-  
-  
-  
+
+<li><a href="#pdk">PDK</a></li>
+
+<li><a href="#pdk-external-dependencies">PDK - external dependencies</a></li>
+
+<li><a href="#puppet-litmus">Puppet Litmus</a></li>
+
+<li><a href="#resource-api">Resource API</a></li>
+
+<li><a href="#misc-module-tools">Misc Module tools</a></li>
+
+<li><a href="#i18n">i18n</a></li>
+
 </ul>
-
-<p>A list of the tools developed and maintained by the IA Content Team.</p>
-
-
 
 
 <div class="row">
   <div class="col">
-    <h2>Misc Module tools</h2>
+    <h2>PDK<a id="pdk"></a></h2>
   </div>
 </div>
 
 
+
 <div class="row">
   <div class="col">
-    <h3><a href="/iac/tools/community_reports.html">Community reports</a></h3>
+    <h3><a href="/iac/tools/pdk-docker.html">PDK Dockerfile</a></h3>
   </div>
   <div class="col">
-    This set of scripts collates daily reports on our responsibilities as the stewards of supported modules.<br/>
+    Official Puppet Development Kit (PDK) Docker Image.<br/>
     
     
     
@@ -98,18 +103,75 @@
 
 <div class="row">
   <div class="col">
-    <h3><a href="/iac/tools/dependency-checker.html">dependency-checker</a></h3>
+    <h3><a href="/iac/tools/pdk-planning.html">PDK Planning</a></h3>
   </div>
   <div class="col">
-    The dependency-checker tool validates dependencies in metadata.json files in Puppet modules or YAML files containing arrays of Puppet modules against the latest published versions on the Puppet Forge.<br/>
+    Public planning repository for the PDK project.<br/>
     
     
     
-    <img alt="Travis" src="https://img.shields.io/travis/puppetlabs/dependency_checker?logo=travis">
+    
+    
+    <img alt="Appveyor" src="https://img.shields.io/appveyor/build/puppetlabs/pdk-planning?logo=appveyor" />
+    <img alt="GitHub Actions" src="https://img.shields.io/github/workflow/status/puppetlabs/pdk-planning/New Project Created?logo=github" />
+    
+    
+  </div>
+</div>
+<br/>
+
+<div class="row">
+  <div class="col">
+    <h3><a href="/iac/tools/pdk-templates.html">PDK Templates</a></h3>
+  </div>
+  <div class="col">
+    The templates used by the PDK to create new modules and other objects.<br/>
     
     
     
-    <img alt="Codecov" src="https://img.shields.io/codecov/c/gh/puppetlabs/dependency_checker?logo=codecov&token=ef8ebfa9632b46799eb523869ffa6cd5">
+    <img alt="Travis" src="https://img.shields.io/travis/puppetlabs/pdk-templates?logo=travis">
+    
+    
+    
+    
+    
+  </div>
+</div>
+<br/>
+
+<div class="row">
+  <div class="col">
+    <h3><a href="/iac/tools/pdk-vanagon.html">PDK Packaging</a></h3>
+  </div>
+  <div class="col">
+    This project contains all the code to create native packages of the PDK for all supported platforms.<br/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </div>
+</div>
+<br/>
+
+<div class="row">
+  <div class="col">
+    <h3><a href="/iac/tools/pdk.html">Puppet Development Kit</a></h3>
+  </div>
+  <div class="col">
+    Command line tool for generating and testing modules.<br/>
+    <img alt="Gem downloads" src="https://img.shields.io/gem/dt/pdk?logo=rubygems">
+    
+    
+    <img alt="Travis" src="https://img.shields.io/travis/puppetlabs/pdk?logo=travis">
+    
+    <img alt="Appveyor" src="https://img.shields.io/appveyor/build/puppetlabs/pdk?logo=appveyor" />
+    
+    <img alt="Codecov" src="https://img.shields.io/codecov/c/gh/puppetlabs/pdk?logo=codecov&token=ef8ebfa9632b46799eb523869ffa6cd5">
     
   </div>
 </div>
@@ -136,18 +198,37 @@
 
 <div class="row">
   <div class="col">
-    <h3><a href="/iac/tools/puppet-approved.html">Puppet Approved script</a></h3>
+    <h3><a href="/iac/tools/puppet-module-gems.html">Puppet Module Gems</a></h3>
   </div>
   <div class="col">
-    A small script to test for the easy Puppet Approved criteria.<br/>
+    dependency management gems for all puppet modules.<br/>
     
     
     
+    <img alt="Travis" src="https://img.shields.io/travis/puppetlabs/puppet-module-gems?logo=travis">
     
     
     
+    <img alt="Codecov" src="https://img.shields.io/codecov/c/gh/puppetlabs/puppet-module-gems?logo=codecov&token=ef8ebfa9632b46799eb523869ffa6cd5">
+    
+  </div>
+</div>
+<br/>
+
+<div class="row">
+  <div class="col">
+    <h3><a href="/iac/tools/puppet-modulebuilder.html">Puppet::Modulebuilder</a></h3>
+  </div>
+  <div class="col">
+    The canonical gem to build puppet modules.<br/>
+    <img alt="Gem downloads" src="https://img.shields.io/gem/dt/puppet-modulebuilder?logo=rubygems">
     
     
+    <img alt="Travis" src="https://img.shields.io/travis/puppetlabs/puppet-modulebuilder?logo=travis">
+    
+    <img alt="Appveyor" src="https://img.shields.io/appveyor/build/puppetlabs/puppet-modulebuilder?logo=appveyor" />
+    
+    <img alt="Codecov" src="https://img.shields.io/codecov/c/gh/puppetlabs/puppet-modulebuilder?logo=codecov&token=ef8ebfa9632b46799eb523869ffa6cd5">
     
   </div>
 </div>
@@ -172,23 +253,145 @@
 </div>
 <br/>
 
+<hr />
+<br />
+
 <div class="row">
   <div class="col">
-    <h3><a href="/iac/tools/ruby-pwsh.html">PowerShell Gem (ruby-pwsh)</a></h3>
+    <h2>PDK - external dependencies<a id="pdk-external-dependencies"></a></h2>
+  </div>
+</div>
+
+
+
+<div class="row">
+  <div class="col">
+    <h3><a href="/iac/tools/facterdb.html">facterdb</a></h3>
   </div>
   <div class="col">
-    This gem enables you to execute PowerShell from within ruby without having to instantiate and tear down a PowerShell process for each command called.<br/>
-    <img alt="Gem downloads" src="https://img.shields.io/gem/dt/ruby-pwsh?logo=rubygems">
-    
-    <img alt="Puppet Forge downloads" src="https://img.shields.io/puppetforge/dt/puppetlabs/pwshlib">
-    <img alt="Puppet Forge endorsement" src="https://img.shields.io/puppetforge/e/puppetlabs/pwshlib">
+    A Database of OS facts provided by Facter.<br/>
+    <img alt="Gem downloads" src="https://img.shields.io/gem/dt/facterdb?logo=rubygems">
     
     
+    <img alt="Travis" src="https://img.shields.io/travis/camptocamp/facterdb?logo=travis">
     
-    <img alt="Travis" src="https://img.shields.io/travis/com/puppetlabs/ruby-pwsh?logo=travis">
-    <img alt="Appveyor" src="https://img.shields.io/appveyor/build/puppetlabs/ruby-pwsh?logo=appveyor" />
     
-    <img alt="Codecov" src="https://img.shields.io/codecov/c/gh/puppetlabs/ruby-pwsh?logo=codecov&token=ef8ebfa9632b46799eb523869ffa6cd5">
+    
+    
+    
+  </div>
+</div>
+<br/>
+
+<div class="row">
+  <div class="col">
+    <h3><a href="/iac/tools/metadata-json-lint.html">metadata-json-lint</a></h3>
+  </div>
+  <div class="col">
+    Tool to check the validity of Puppet metadata.json files.<br/>
+    <img alt="Gem downloads" src="https://img.shields.io/gem/dt/metadata-json-lint?logo=rubygems">
+    
+    
+    <img alt="Travis" src="https://img.shields.io/travis/voxpupuli/metadata-json-lint?logo=travis">
+    
+    <img alt="Appveyor" src="https://img.shields.io/appveyor/build/voxpupuli/metadata-json-lint?logo=appveyor" />
+    
+    <img alt="Codecov" src="https://img.shields.io/codecov/c/gh/voxpupuli/metadata-json-lint?logo=codecov&token=true">
+    
+  </div>
+</div>
+<br/>
+
+<div class="row">
+  <div class="col">
+    <h3><a href="/iac/tools/puppet-lint.html">puppet-lint</a></h3>
+  </div>
+  <div class="col">
+    Check that your Puppet manifests conform to the style guide.<br/>
+    <img alt="Gem downloads" src="https://img.shields.io/gem/dt/puppet-lint?logo=rubygems">
+    
+    
+    <img alt="Travis" src="https://img.shields.io/travis/rodjek/puppet-lint?logo=travis">
+    
+    <img alt="Appveyor" src="https://img.shields.io/appveyor/build/rodjek/puppet-lint?logo=appveyor" />
+    
+    
+    
+  </div>
+</div>
+<br/>
+
+<div class="row">
+  <div class="col">
+    <h3><a href="/iac/tools/puppet-syntax.html">Puppet::Syntax</a></h3>
+  </div>
+  <div class="col">
+    Syntax checks for Puppet manifests and templates.<br/>
+    <img alt="Gem downloads" src="https://img.shields.io/gem/dt/puppet-syntax?logo=rubygems">
+    
+    
+    <img alt="Travis" src="https://img.shields.io/travis/voxpupuli/puppet-syntax?logo=travis">
+    
+    
+    
+    
+    
+  </div>
+</div>
+<br/>
+
+<div class="row">
+  <div class="col">
+    <h3><a href="/iac/tools/puppetlabs_spec_helper.html">Puppet Labs Spec Helper</a></h3>
+  </div>
+  <div class="col">
+    A set of shared spec helpers specific to Puppetlabs projects.<br/>
+    <img alt="Gem downloads" src="https://img.shields.io/gem/dt/puppetlabs_spec_helper?logo=rubygems">
+    
+    
+    <img alt="Travis" src="https://img.shields.io/travis/puppetlabs/puppetlabs_spec_helper?logo=travis">
+    
+    <img alt="Appveyor" src="https://img.shields.io/appveyor/build/puppetlabs/puppetlabs_spec_helper?logo=appveyor" />
+    
+    
+    
+  </div>
+</div>
+<br/>
+
+<div class="row">
+  <div class="col">
+    <h3><a href="/iac/tools/rspec-puppet-facts.html">rspec-puppet-facts</a></h3>
+  </div>
+  <div class="col">
+    Simplify your unit tests by looping on every supported Operating System and populating facts.<br/>
+    <img alt="Gem downloads" src="https://img.shields.io/gem/dt/rspec-puppet-facts?logo=rubygems">
+    
+    
+    <img alt="Travis" src="https://img.shields.io/travis/mcanevet/rspec-puppet-facts?logo=travis">
+    
+    
+    
+    
+    
+  </div>
+</div>
+<br/>
+
+<div class="row">
+  <div class="col">
+    <h3><a href="/iac/tools/rspec-puppet.html">rspec-puppet</a></h3>
+  </div>
+  <div class="col">
+    RSpec tests for your Puppet manifests.<br/>
+    <img alt="Gem downloads" src="https://img.shields.io/gem/dt/rspec-puppet?logo=rubygems">
+    
+    
+    <img alt="Travis" src="https://img.shields.io/travis/rodjek/rspec-puppet?logo=travis">
+    
+    <img alt="Appveyor" src="https://img.shields.io/appveyor/build/rodjek/rspec-puppet?logo=appveyor" />
+    
+    
     
   </div>
 </div>
@@ -199,10 +402,68 @@
 
 <div class="row">
   <div class="col">
-    <h2>Puppet Litmus</h2>
+    <h2>Puppet Litmus<a id="puppet-litmus"></a></h2>
   </div>
 </div>
 
+
+
+<div class="row">
+  <div class="col">
+    <h3><a href="/iac/tools/action-litmus_parallel.html">Github Action for Litmus</a></h3>
+  </div>
+  <div class="col">
+    This action was designed to allow running acceptance tests for Puppet modules using Litmus.<br/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </div>
+</div>
+<br/>
+
+<div class="row">
+  <div class="col">
+    <h3><a href="/iac/tools/action-litmus_spec.html">Github Action for Module unit testing</a></h3>
+  </div>
+  <div class="col">
+    This action was designed to allow running spec tests for Puppet modules.<br/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </div>
+</div>
+<br/>
+
+<div class="row">
+  <div class="col">
+    <h3><a href="/iac/tools/litmus-docs.html">Litmus Docs</a></h3>
+  </div>
+  <div class="col">
+    This repository contains the docs mini site for Puppet Litmus.<br/>
+    
+    
+    
+    
+    
+    
+    <img alt="GitHub Actions" src="https://img.shields.io/github/workflow/status/puppetlabs/litmus/Jekyll Deploy?logo=github" />
+    
+    
+  </div>
+</div>
+<br/>
 
 <div class="row">
   <div class="col">
@@ -247,9 +508,171 @@
 
 <div class="row">
   <div class="col">
-    <h2>i18n</h2>
+    <h2>Resource API<a id="resource-api"></a></h2>
   </div>
 </div>
+
+
+
+<div class="row">
+  <div class="col">
+    <h3><a href="/iac/tools/resource-api.html">Resource API</a></h3>
+  </div>
+  <div class="col">
+    This library provides a simple way to write new native resources.<br/>
+    <img alt="Gem downloads" src="https://img.shields.io/gem/dt/puppet-resource_api?logo=rubygems">
+    
+    <img alt="Puppet Forge downloads" src="https://img.shields.io/puppetforge/dt/puppetlabs/resource_api">
+    <img alt="Puppet Forge endorsement" src="https://img.shields.io/puppetforge/e/puppetlabs/resource_api">
+    
+    
+    <img alt="Travis" src="https://img.shields.io/travis/puppetlabs/puppet-resource_api?logo=travis">
+    
+    <img alt="Appveyor" src="https://img.shields.io/appveyor/build/puppetlabs/puppet-resource_api?logo=appveyor" />
+    
+    <img alt="Codecov" src="https://img.shields.io/codecov/c/gh/puppetlabs/puppet-resource_api?logo=codecov&token=ef8ebfa9632b46799eb523869ffa6cd5">
+    
+  </div>
+</div>
+<br/>
+
+<hr />
+<br />
+
+<div class="row">
+  <div class="col">
+    <h2>Misc Module tools<a id="misc-module-tools"></a></h2>
+  </div>
+</div>
+
+
+
+<div class="row">
+  <div class="col">
+    <h3><a href="/iac/tools/community_reports.html">Community reports</a></h3>
+  </div>
+  <div class="col">
+    This set of scripts collates daily reports on our responsibilities as the stewards of supported modules.<br/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </div>
+</div>
+<br/>
+
+<div class="row">
+  <div class="col">
+    <h3><a href="/iac/tools/dependency-checker.html">dependency-checker</a></h3>
+  </div>
+  <div class="col">
+    The dependency-checker tool validates dependencies in metadata.json files in Puppet modules or YAML files containing arrays of Puppet modules against the latest published versions on the Puppet Forge.<br/>
+    
+    
+    
+    <img alt="Travis" src="https://img.shields.io/travis/puppetlabs/dependency_checker?logo=travis">
+    
+    
+    
+    <img alt="Codecov" src="https://img.shields.io/codecov/c/gh/puppetlabs/dependency_checker?logo=codecov&token=ef8ebfa9632b46799eb523869ffa6cd5">
+    
+  </div>
+</div>
+<br/>
+
+<div class="row">
+  <div class="col">
+    <h3><a href="/iac/tools/iac-blog.html">IAC Blog</a></h3>
+  </div>
+  <div class="col">
+    Infrastructure Automation Content Team Content.<br/>
+    
+    
+    
+    
+    
+    
+    <img alt="GitHub Actions" src="https://img.shields.io/github/workflow/status/puppetlabs/iac/Jekyll Deploy?logo=github" />
+    <img alt="Codecov" src="https://img.shields.io/codecov/c/gh/puppetlabs/iac?logo=codecov&token=ef8ebfa9632b46799eb523869ffa6cd5">
+    
+  </div>
+</div>
+<br/>
+
+<div class="row">
+  <div class="col">
+    <h3><a href="/iac/tools/puppet-approved.html">Puppet Approved script</a></h3>
+  </div>
+  <div class="col">
+    A small script to test for the easy Puppet Approved criteria.<br/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </div>
+</div>
+<br/>
+
+<div class="row">
+  <div class="col">
+    <h3><a href="/iac/tools/puppet-dsc-builder.html">PuppetDscBuilder</a></h3>
+  </div>
+  <div class="col">
+    A PowerShell function to wrap DSC resources in puppet providers.<br/>
+    
+    
+    
+    
+    
+    <img alt="Appveyor" src="https://img.shields.io/appveyor/build/puppetlabs/PuppetDscBuilder?logo=appveyor" />
+    
+    <img alt="Codecov" src="https://img.shields.io/codecov/c/gh/puppetlabs/PuppetDscBuilder?logo=codecov&token=ef8ebfa9632b46799eb523869ffa6cd5">
+    
+  </div>
+</div>
+<br/>
+
+<div class="row">
+  <div class="col">
+    <h3><a href="/iac/tools/ruby-pwsh.html">PowerShell Gem (ruby-pwsh)</a></h3>
+  </div>
+  <div class="col">
+    This gem enables you to execute PowerShell from within ruby without having to instantiate and tear down a PowerShell process for each command called.<br/>
+    <img alt="Gem downloads" src="https://img.shields.io/gem/dt/ruby-pwsh?logo=rubygems">
+    
+    <img alt="Puppet Forge downloads" src="https://img.shields.io/puppetforge/dt/puppetlabs/pwshlib">
+    <img alt="Puppet Forge endorsement" src="https://img.shields.io/puppetforge/e/puppetlabs/pwshlib">
+    
+    
+    
+    <img alt="Travis" src="https://img.shields.io/travis/com/puppetlabs/ruby-pwsh?logo=travis">
+    <img alt="Appveyor" src="https://img.shields.io/appveyor/build/puppetlabs/ruby-pwsh?logo=appveyor" />
+    
+    <img alt="Codecov" src="https://img.shields.io/codecov/c/gh/puppetlabs/ruby-pwsh?logo=codecov&token=ef8ebfa9632b46799eb523869ffa6cd5">
+    
+  </div>
+</div>
+<br/>
+
+<hr />
+<br />
+
+<div class="row">
+  <div class="col">
+    <h2>i18n<a id="i18n"></a></h2>
+  </div>
+</div>
+
 
 
 <div class="row">
@@ -312,39 +735,8 @@
 <hr />
 <br />
 
-<div class="row">
-  <div class="col">
-    <h2>Resource API</h2>
-  </div>
-</div>
 
-
-<div class="row">
-  <div class="col">
-    <h3><a href="/iac/tools/resource-api.html">Resource API</a></h3>
-  </div>
-  <div class="col">
-    This library provides a simple way to write new native resources.<br/>
-    <img alt="Gem downloads" src="https://img.shields.io/gem/dt/puppet-resource_api?logo=rubygems">
-    
-    <img alt="Puppet Forge downloads" src="https://img.shields.io/puppetforge/dt/puppetlabs/resource_api">
-    <img alt="Puppet Forge endorsement" src="https://img.shields.io/puppetforge/e/puppetlabs/resource_api">
-    
-    
-    <img alt="Travis" src="https://img.shields.io/travis/puppetlabs/puppet-resource_api?logo=travis">
-    
-    <img alt="Appveyor" src="https://img.shields.io/appveyor/build/puppetlabs/puppet-resource_api?logo=appveyor" />
-    
-    <img alt="Codecov" src="https://img.shields.io/codecov/c/gh/puppetlabs/puppet-resource_api?logo=codecov&token=ef8ebfa9632b46799eb523869ffa6cd5">
-    
-  </div>
-</div>
-<br/>
-
-<hr />
-<br />
-
-
+<p>The underlying data is also rendered to <a href="../tools.json">tools.json</a>, which is used by various tools to act on all of our repos at once.</p>
 
   </div>
 
@@ -361,10 +753,10 @@
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li class="p-name">Puppet IAC Team</li><li><a class="u-email" href="mailto:ia-content@puppet.com">ia-content@puppet.com</a></li></ul>
+          <li class="p-name">Puppet IAC Team</li><li><a class="u-email" href="mailto:ia_content@puppet.com">ia_content@puppet.com</a></li></ul>
       </div>
 
-      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/puppetlabs"><svg class="svg-icon"><use xlink:href="/iac/assets/minima-social-icons.svg#github"></use></svg> <span class="username">puppetlabs</span></a></li></ul>
 </div>
 
       <div class="footer-col footer-col-3">
